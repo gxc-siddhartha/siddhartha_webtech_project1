@@ -8,7 +8,6 @@ body {
     display: flex;
     flex-direction: column;
     display: flex;
-    background-color: rgba(0, 0, 0, 0.032);
 
 }
 
@@ -36,12 +35,12 @@ body {
 
 .n2 > img {
     margin-left: 4px;
-    height: 12px;
+    height: 30px;
 }
 
 .n2 {
     background-color: #1C4D8D;
-    padding: 1.2em 1em;
+    padding: 0.8em 1em;
     display: flex;
     justify-items: center;
     align-items: center;
@@ -86,12 +85,11 @@ th {
     font-size: 16px;
     font-weight: 400;
     padding: 1em 0em;
-    border-right: 0.3px solid white;
+    border-right: 0.3px solid rgba(255, 255, 255, 0.481);
 }
 
 td{
-
-    border: 0.4px solid black;
+    border: 0.4px solid rgba(0, 0, 0, 0.197);
     margin: 0;
     padding: 0;
 }
@@ -113,5 +111,5 @@ td{
 }
 
 .row2 {
-    background-color: rgba(0, 0, 0, 0.056);
+    background-color: rgba(0, 0, 0, 0.04);
 }
